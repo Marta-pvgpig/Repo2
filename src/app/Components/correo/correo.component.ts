@@ -25,7 +25,5 @@ export class CorreoComponent implements OnInit {
     if(datosRecibidos){
       this.correo = JSON.parse(datosRecibidos);
     }
-   
   }
-
 }
